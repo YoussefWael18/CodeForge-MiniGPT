@@ -39,7 +39,7 @@ The merged model is hosted on HuggingFace and is not included in this repository
 huggingface-cli download youssefWael/CodeForge-MiniGPT --local-dir mini-gpt-coder-merged
 ```
 
-Or download manually from: [huggingface.co/youssefWael/CodeForge-MiniGPT](https://huggingface.co/YoussefWael18/CodeForge-MiniGPT)
+Or download manually from: [huggingface.co/youssefWael/CodeForge-MiniGPT](https://huggingface.co/youssefWael/CodeForge-MiniGPT)
 
 ---
 
