@@ -29,17 +29,11 @@ cd CodeForge-MiniGPT
 pip install torch transformers datasets peft trl bitsandbytes streamlit safetensors accelerate
 ```
 
-> GPU support is strongly recommended for training. The project is was trained with rtx 4050 6GB VRAM using 4-bit quantization.
+> GPU support is strongly recommended for training. The project is designed around 6GB VRAM using 4-bit quantization.
 
-### 3. Download the fine-tuned model
+### 3. Train the model
 
-The merged model is hosted on HuggingFace and is not included in this repository due to its size (~3GB).
-
-```bash
-huggingface-cli download youssefWael/CodeForge-MiniGPT --local-dir mini-gpt-coder-merged
-```
-
-Or download manually from: [huggingface.co/youssefWael/CodeForge-MiniGPT](https://huggingface.co/youssefWael/CodeForge-MiniGPT)
+Run `training.ipynb` from top to bottom to produce the merged model locally. See the Training section below for details.
 
 ---
 
