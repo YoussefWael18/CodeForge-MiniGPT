@@ -1,0 +1,13 @@
+mini-gpt-coder-merged/
+mini-gpt-coder-adapter/
+mini-gpt-coder-FULL/
+*.safetensors
+*.bin
+*.pt
+*.pth
+__pycache__/
+*.pyc
+*.pyo
+.env
+.ipynb_checkpoints/
+.vscode/
